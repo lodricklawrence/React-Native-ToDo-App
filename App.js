@@ -9,9 +9,9 @@ export default function App() {
   return (
     <TouchableWithoutFeedback onPress={()=>{Keyboard.dismiss()}}>
       <View style={styles.container}>
+        <StatusBar style="auto" />
           <Header/>
           <Todos />
-        <StatusBar style="auto" />
       </View>
     </TouchableWithoutFeedback>
   );
